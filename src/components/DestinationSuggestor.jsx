@@ -46,7 +46,7 @@ const DestinationSuggestor = () => {
       {error && <p className="text-red-500 mb-4">{error}</p>}
       <button
         onClick={getRandomDestination}
-        className="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition"
+        className="w-full bg-rose-500 text-white py-2 rounded-lg hover:bg-yellow-500 transition"
       >
         Suggest a destination
       </button>
